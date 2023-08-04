@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sreenath | Profile</title>
+</head>
+<body>
+    <nav>
+        <a href="#home" class="pages">Home</a>
+        <a href="#skills" class="pages">Skills</a>
+        <a href="#projhead" class="pages">Projects</a>
+        <a href="#contact" class="pages">Contact</a>
+        <a href="#social" class="pages">Social</a>
+    </nav>
+    <section class="intro" id = "home">
+        <h1>
+            Hi I'm Sreenath
+        </h1>
+        <p class="comm">
+            Tech Enthusiast | Student
+        </p>
+        <img src="./resources/passportpic.jpg" alt="Its mehh" srcset="">
+    </section>
+    <section class="skills" id = "skills">
+        <p class="head">Skills</p>
+        <ul>
+            <li >Python</li>
+            <li >HTML</li>
+            <li>CSS</li>
+            <li>SQL</li>
+            <li>git</li>
+            <li>C Programming</li>
+        </ul>
+    </section>
+
+
+    <h1 id="projhead">Projects</h1>
+
+    <section class="projects" id = "projects">
+        <div class="cards">
+            <a href="https://github.com/sreenathsnv/FoodApp" class="title" target = "_blank">Food App</a>
+            <p class="desc"> A static website of a food delivery application</p>
+        </div>
+        <div class="cards">
+            <a href="https://github.com/sreenathsnv/QRCode-python" class="title" target = "_blank">QR code</a>
+            <p class="desc">A simple python GUI based application which generates QR codes according to the user entered text </p>
+        </div>
+        <div class="cards">
+            <a href="https://github.com/sreenathsnv/Python---Notepad" class="title" target = "_blank">Notepad</a>
+            <p class="desc"> A simple python GUI based Notepad application</p>
+        </div>
+        <div class="cards">
+            <a href="https://github.com/sreenathsnv/jalakam-online" class="title" target = "_blank">Jalakam- Online</a>
+            <p class="desc">Which is my first backend application that I have made for my college Fine arts day jalakam to manage results</p>
+        </div>
+    </section>
+   
+    <section class="contact" id = "contact">
+        <form action="#" method="post" name = "contact" onsubmit="return validate()" target="_blank">
+            <label for = "name" class = "label" id = "name">Name</label>
+            <input type="text" required name  = "name">
+            <label for = "email" class = "label">Email ID</label>
+            <input type="email" required name  = "email">
+            <label for = "Phone" class = "label">Phone Number</label>
+            <input type="number"  name  = "Phone">
+            <label for = "comment" class = "label">Comment</label>
+            <textarea name="comment" id="comment" cols="30" rows="7"></textarea>
+            <input type="submit" value="Send" id = "submit" >
+
+        </form>
+
+    </section>
+    <footer id = "social">
+        <a href="https://instagram.com/_im.sreenath_/" target = "_blank" class="icon">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://github.com/sreenathsnv/" target = "_blank" class="icon">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://in.linkedin.com/in/sreenath-v-097050217" class="icon" target = "_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://twitter.com/Sreenath_snv" target = "_blank" class="icon">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="https://t.me/snv_py" class="icon" target = "_blank">
+            <i class="fa-brands fa-telegram"></i>
+        </a>
+
+    </footer>
+<script>
+    
+    function validate()
+    {
+        alert(`Thank you, Your response has been sent`)
+    }
+    
+</script>
+</body>
+</html>
